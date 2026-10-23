@@ -2,6 +2,16 @@
 
 Disables combat sprint.
 
+## Installing a patch
+
+* Install the latest version of [BepInEx](https://github.com/BepInEx/BepInEx/releases) into your OrbusVR game directory.
+* Download the `.dll` for the patch from the [Releases](https://github.com/Cnidocyte-embrace/OrbusNoCombatSprint/releases) page.
+* Place the `.dll` in: `BepInEx/plugins/` directory (Note: You might need to launch the game once for this folder to generate)
+
+## Linux / Proton
+
+If you are running through proton, add this to the games launch options:
+`WINEDLLOVERRIDES="winhttp.dll=n,b" %command%`
 
 ## What it changes
 
@@ -9,7 +19,6 @@ In combat the client only lets the player move at full speed while a controller 
 
 * Holding grip while moving in combat gives no speed boost.
 * Holding grip no longer uses stamina.
-* Movement in combat stays at the normal non-sprint rate.
 
 Nothing else that uses grip should be touched.
 
