@@ -27,6 +27,6 @@ Nothing else that uses grip should be touched.
 The BepInEx log should say `Combat sprint disabled (patched 2 grip checks).` If it warns about a different number something is very wrong.
 
 
-## Why there is only a dll
+## Why there is only a .dll
 
-I want to be able to reliably share this but the source code could be miss used if modified 
+I want to be able to reliably share this but the source code could be misused if modified 
